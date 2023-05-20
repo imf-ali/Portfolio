@@ -39,7 +39,16 @@ const ExperienceCard = ({ experience }) => {
             key={`experience-point-${index}`}
             className="text-white-100 text-[14px] pl-1 tracking-wider"
           >
-            {point}
+            {point.substring(0,4) === 'link' ? (
+              <a 
+                href="https://github.com/search?q=type%3Apr+author%3Aimf-ali+is%3Amerged+repo%3ARocketChat%2FEmbeddedChat&type=pullrequests"
+                className="underline"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Link to my contributions
+              </a>
+              ) : point}
           </li>
         ))}
       </ul>

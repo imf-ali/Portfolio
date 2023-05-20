@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@ionic/react": "^7.0.7",
     "@react-three/drei": "^9.68.3",
     "@react-three/fiber": "^8.13.0",
     "framer-motion": "^10.12.12",

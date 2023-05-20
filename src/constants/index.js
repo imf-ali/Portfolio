@@ -1,7 +1,7 @@
 import {
   mobile,
+  blockchain,
   backend,
-  creator,
   web,
   cimage,
   cppimage,
@@ -19,20 +19,16 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  rupeek,
+  rocketchat,
   carrent,
   jobit,
-  tripguide,
-  threejs
+  tripguide
 } from '../assets';
 
 export const navLinks = [
@@ -50,6 +46,24 @@ export const navLinks = [
   }
 ];
 
+export const profileLinks = [
+  {
+    id: 'twitter',
+    url: 'https://twitter.com/imf_ali',
+    icon: 'logo-twitter'
+  },
+  {
+    id: 'github',
+    url: 'https://github.com/imf-ali',
+    icon: 'logo-github'
+  },
+  {
+    id: 'linkedin',
+    url: 'https://www.linkedin.com/in/imf-ali',
+    icon: 'logo-linkedin'
+  }
+]
+
 const services = [
   {
     title: 'Web Developer',
@@ -62,6 +76,10 @@ const services = [
   {
     title: 'React Native Developer',
     icon: mobile
+  },
+  {
+    title: 'Blockchain Developer',
+    icon: blockchain
   }
 ];
 
@@ -79,7 +97,7 @@ const technologies = [
     icon: java
   },
   {
-    name: 'python',
+    name: 'Python',
     icon: python
   },
   {
@@ -107,10 +125,6 @@ const technologies = [
     icon: reactjs
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux
-  },
-  {
     name: 'Tailwind CSS',
     icon: tailwind
   },
@@ -129,10 +143,6 @@ const technologies = [
   {
     name: 'Postgres',
     icon: postgres
-  },
-  {
-    name: 'Three JS',
-    icon: threejs
   },
   {
     name: 'git',
@@ -162,84 +172,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: 'Open Source Developer',
+    company_name: 'Rocket.Chat',
+    icon: rocketchat,
+    iconBg: '#fff',
+    date: 'December 2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Top contributor of Rocket.chat for the session 2022-23.',
+      'Contributed to the repo EmbeddedChat of Rocket.chat which is a full-stack React component node module of the RocketChat application that is fully configurable, extensible, and flexible for use.',
+      'Worked on UI improvement, message parser, message markdown, media recording',
+      'link-https://github.com/search?q=type%3Apr+author%3Aimf-ali+is%3Amerged+repo%3ARocketChat%2FEmbeddedChat&type=pullrequests'
     ]
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    title: 'SDE Intern',
+    company_name: 'Rupeek Fintech Private Limited',
+    icon: rupeek,
+    iconBg: '#fff',
+    date: 'January 2022 - June 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Developed REST APIs to digitise the Loans Application Form in order to reduce manual effort and time spend by Loan Manager to fill the form.',
+      'Developed the APIs in three different services, two of them using Node.js and one service using Spring Boot.',
+      'Development the form UI using HTML and vanilla JavaScript.',
+      'Amazon S3 is used to store the PDF of the form and PostgresSQL to store data regarding the Application Forms.',
+      'Used Jenkins and Grafana to deploy the branch and analyze the deployed branch.'
     ]
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    title: 'SDE I',
+    company_name: 'Rupeek Fintech Private Limited',
+    icon: rupeek,
+    iconBg: '#fff',
+    date: 'July 2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Developed a new microservice to manage the assets and their life cycle from the point of appraisal till they are released back to the customers.',
+      'Developed these APIs using Spring Boot, PostgreSQL and AWS.',
+      'Developed REST APIs for the process of KYC, bank and nominee addition into the existing system.',
+      'Developed these APIs using Spring Boot, Node.js, PostgreSQL and AWS.'
     ]
   },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
-    ]
-  }
 ];
 
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg'
+      'test',
+    name: 'test',
+    designation: 'test',
+    company: 'test',
+    image: 'imgurl'
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg'
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg'
-  }
 ];
 
 const projects = [

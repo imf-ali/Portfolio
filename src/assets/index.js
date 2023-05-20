@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+import logo from './letterf.png';
 import backend from './backend.png';
 import creator from './creator.png';
 import mobile from './mobile.png';
+import blockchain from './blockchain.png';
 import web from './web.png';
 import github from './github.png';
 import menu from './menu.svg';
@@ -32,10 +33,8 @@ import jenkins from './tech/jenkins.svg';
 import graffana from './tech/graffana.svg';
 import aws from './tech/aws.svg';
 
-import meta from './company/meta.png';
-import shopify from './company/shopify.png';
-import starbucks from './company/starbucks.png';
-import tesla from './company/tesla.png';
+import rupeek from './company/rupeek.png';
+import rocketchat from './company/rocketchat.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -47,6 +46,7 @@ export {
   creator,
   mobile,
   web,
+  blockchain,
   github,
   menu,
   close,
@@ -63,10 +63,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  rupeek,
+  rocketchat,
   carrent,
   jobit,
   tripguide,
