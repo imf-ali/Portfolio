@@ -37,8 +37,9 @@ import rupeek from './company/rupeek.png';
 import rocketchat from './company/rocketchat.png';
 
 import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import webchat from './webchat2.png';
+import manas from './manas.png';
+import weather from './weather.png';
 
 export {
   logo,
@@ -66,8 +67,9 @@ export {
   rupeek,
   rocketchat,
   carrent,
-  jobit,
-  tripguide,
+  manas,
+  webchat,
+  weather,
   cimage,
   cppimage,
   java,

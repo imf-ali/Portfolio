@@ -26,9 +26,9 @@ import {
   docker,
   rupeek,
   rocketchat,
-  carrent,
-  jobit,
-  tripguide
+  manas,
+  webchat,
+  weather
 } from '../assets';
 
 export const navLinks = [
@@ -226,10 +226,14 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Manas Education Center',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'A website created for coaching of IIT JEE preparation. The website is made interactive with separate logins for admin and student. Admin gets to general notice and student specific notice. Users can also add their blogs.',
     tags: [
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient'
+      },
       {
         name: 'react',
         color: 'blue-text-gradient'
@@ -239,54 +243,58 @@ const projects = [
         color: 'green-text-gradient'
       },
       {
-        name: 'tailwind',
-        color: 'pink-text-gradient'
-      }
-    ],
-    image: carrent,
-    source_code_link: 'https://github.com/'
-  },
-  {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-    tags: [
-      {
-        name: 'react',
+        name: 'docker',
         color: 'blue-text-gradient'
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient'
+        name: 'aws',
+        color: 'orange-text-gradient'
       }
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/'
+    image: manas,
+    source_code_link: 'https://github.com/imf-ali/Manas-Frontend'
   },
   {
-    name: 'Trip Guide',
+    name: 'Weather App',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'This is a personal project that I made which gives current weather forecast based on the query of a place. It uses Mapbox API to give the coordinates corresponding to the place. Then it uses the WeatherStack API to give the forecast of the place based on the coordinates.',
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient'
+        name: 'nodejs',
+        color: 'green-text-gradient'
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient'
+        name: 'html',
+        color: 'pink-text-gradient'
       },
       {
         name: 'css',
-        color: 'pink-text-gradient'
+        color: 'blue-text-gradient'
       }
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/'
+    image: weather,
+    source_code_link: 'https://github.com/imf-ali/Node-weather-app'
+  },
+  {
+    name: 'Web Chat',
+    description:
+      'A simple application where users can live chat. Users can create room and join it. People can also send their location.',
+    tags: [
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'html',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'css',
+        color: 'blue-text-gradient'
+      }
+    ],
+    image: webchat,
+    source_code_link: 'https://github.com/imf-ali/Web-Chat-App'
   }
 ];
 
