@@ -76,10 +76,6 @@ const services = [
   {
     title: 'React Native Developer',
     icon: mobile
-  },
-  {
-    title: 'Blockchain Developer',
-    icon: blockchain
   }
 ];
 
