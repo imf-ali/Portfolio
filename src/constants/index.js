@@ -3,6 +3,17 @@ import {
   backend,
   creator,
   web,
+  cimage,
+  cppimage,
+  java,
+  python,
+  postgres,
+  spring,
+  bootstrap,
+  k8s,
+  jenkins,
+  graffana,
+  aws,
   javascript,
   typescript,
   html,
@@ -13,7 +24,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -46,20 +56,32 @@ const services = [
     icon: web
   },
   {
-    title: 'React Native Developer',
-    icon: mobile
-  },
-  {
     title: 'Backend Developer',
     icon: backend
   },
   {
-    title: 'Content Creator',
-    icon: creator
+    title: 'React Native Developer',
+    icon: mobile
   }
 ];
 
 const technologies = [
+  {
+    name: 'C',
+    icon: cimage
+  },
+  {
+    name: 'CPP',
+    icon: cppimage
+  },
+  {
+    name: 'Java',
+    icon: java
+  },
+  {
+    name: 'python',
+    icon: python
+  },
   {
     name: 'HTML 5',
     icon: html
@@ -77,6 +99,10 @@ const technologies = [
     icon: typescript
   },
   {
+    name: 'Spring',
+    icon: spring
+  },
+  {
     name: 'React JS',
     icon: reactjs
   },
@@ -89,12 +115,20 @@ const technologies = [
     icon: tailwind
   },
   {
+    name: 'Bootstrap',
+    icon: bootstrap
+  },
+  {
     name: 'Node JS',
     icon: nodejs
   },
   {
     name: 'MongoDB',
     icon: mongodb
+  },
+  {
+    name: 'Postgres',
+    icon: postgres
   },
   {
     name: 'Three JS',
@@ -105,13 +139,25 @@ const technologies = [
     icon: git
   },
   {
-    name: 'figma',
-    icon: figma
-  },
-  {
     name: 'docker',
     icon: docker
-  }
+  },
+  {
+    name: 'K8s',
+    icon: k8s
+  },
+  {
+    name: 'Jenkins',
+    icon: jenkins
+  },
+  {
+    name: 'Graffana',
+    icon: graffana
+  },
+  {
+    name: 'AWS',
+    icon: aws
+  },
 ];
 
 const experiences = [

@@ -6,10 +6,6 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
-// template_j0hejj9
-// service_q11h3uz
-// odMeLA7hsmbIH0na3
-
 const Contact = () => {
   const formRef = useRef();
 
@@ -31,8 +27,8 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_rflf6oh', 
-      'template_h28uo3m', 
+      import.meta.env.VITE_SERVICE_ID, 
+      import.meta.env.VITE_TEMPLATE_ID, 
       {
         from_name: form.name,
         to_name: 'Fahad',
@@ -40,7 +36,7 @@ const Contact = () => {
         to_email: 'alifahad2210@gmail.com',
         message: form.message
       }, 
-      'odMeLA7hsmbIH0na3'
+      import.meta.env.VITE_EMAILJS_ID
       ).then(() => {
         setLoading(false);
         alert('Thank you. I will get back to you soon.')
@@ -50,6 +46,7 @@ const Contact = () => {
           message: '',
         })
       }, (error) => {
+        setLoading(false);
         console.log(error);
         alert('Something went wrong.');
       });
