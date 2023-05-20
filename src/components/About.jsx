@@ -39,7 +39,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
         Hey, I am Fahad Ali, a full stack developer from India. I love solving problems through code. As a full stack developer, I have worked on various complex backend and frontend projects. I love contributing to open source and I believe sharing knowledge will help me and others to grow.
       </motion.p>
-      <div className="mt-20 flex flex-wrap justify-between">
+      <div className="mt-20 flex flex-wrap sm:gap-40 gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
