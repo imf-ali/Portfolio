@@ -20,7 +20,7 @@ const Footer = () => {
             </a>
           ))}
         </ul>
-        <p className="sm:text-[20px] text-[16px] sm:mx-0 mx-auto text-secondary tracking-wider">Made with ❤️ by Fahad Ali from India</p>
+        <p className="sm:text-[20px] text-[14px] sm:mx-0 mx-auto text-secondary tracking-wider">Made with ❤️ by Fahad from India</p>
       </motion.div>
     </>
   );
