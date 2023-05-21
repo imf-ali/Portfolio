@@ -36,7 +36,6 @@ import aws from './tech/aws.svg';
 import rupeek from './company/rupeek.png';
 import rocketchat from './company/rocketchat.png';
 
-import carrent from './carrent.png';
 import webchat from './webchat2.png';
 import manas from './manas.png';
 import weather from './weather.png';
@@ -66,7 +65,6 @@ export {
   threejs,
   rupeek,
   rocketchat,
-  carrent,
   manas,
   webchat,
   weather,
