@@ -1,6 +1,5 @@
 import {
   mobile,
-  blockchain,
   backend,
   web,
   cimage,
@@ -28,7 +27,10 @@ import {
   rocketchat,
   manas,
   webchat,
-  weather
+  weather,
+  hivetalk,
+  graphql,
+  prisma
 } from '../assets';
 
 export const navLinks = [
@@ -117,8 +119,16 @@ const technologies = [
     icon: spring
   },
   {
+    name: 'GraphQl',
+    icon: graphql
+  },
+  {
     name: 'React JS',
     icon: reactjs
+  },
+  {
+    name: 'Prisma',
+    icon: prisma
   },
   {
     name: 'Tailwind CSS',
@@ -270,6 +280,35 @@ const projects = [
     ],
     image: weather,
     source_code_link: 'https://github.com/imf-ali/Node-weather-app'
+  },
+  {
+    name: 'HiveTalk',
+    description:
+      'A full stack app like Reddit was created where users can create posts, upvote, downvote posts, edit, delete posts and authenticate users.',
+    tags: [
+      {
+        name: 'GraphQL',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'TypeScript',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'ApolloServer',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'PostgresQL',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'Next.js',
+        color: 'blue-text-gradient'
+      }
+    ],
+    image: hivetalk,
+    source_code_link: 'https://github.com/imf-ali/HiveTalk-backend'
   },
   {
     name: 'Web Chat',

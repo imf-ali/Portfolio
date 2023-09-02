@@ -22,6 +22,8 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import cimage from './tech/c.svg';
+import graphql from './tech/graphql.svg';
+import prisma from './tech/prisma.svg';
 import cppimage from './tech/c++.svg';
 import java from './tech/java.svg';
 import python from './tech/python.svg';
@@ -39,6 +41,8 @@ import rocketchat from './company/rocketchat.png';
 import webchat from './webchat2.png';
 import manas from './manas.png';
 import weather from './weather.png';
+
+import hivetalk from './hivetalk.png';
 
 export {
   logo,
@@ -78,5 +82,8 @@ export {
   k8s,
   jenkins,
   graffana,
-  aws
+  aws,
+  hivetalk,
+  graphql,
+  prisma
 };
